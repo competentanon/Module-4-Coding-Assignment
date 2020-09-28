@@ -37,7 +37,7 @@ WARNING!!! WARNING!!!
 (function (window) {
 	var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 	for (i = 0; i <= names.length; i++) {
-		var i = name;
+		var i = String.name;
 		var firstletter = name.toLowerCase().charAt(0);
 		// STEP 11:
 		// Retrieve the first letter of the current name in the loop.
