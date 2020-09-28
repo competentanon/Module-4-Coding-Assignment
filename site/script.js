@@ -36,9 +36,10 @@ WARNING!!! WARNING!!!
 
 (function (window) {
 	var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-	for (i = 0; i <= names.length; i++) {
-		var i = String.name;
-		var firstletter = name.toLowerCase().charAt(0);
+	for (i = 0; i < names.length; i++) {
+		var name = names[i];
+		var firstletter = name.charAt(0);
+		var firstletter = firstletter.toLowerCase();
 		// STEP 11:
 		// Retrieve the first letter of the current name in the loop.
 		// Use the string object's 'charAt' function. Since we are looking for
@@ -53,11 +54,11 @@ WARNING!!! WARNING!!!
 		// 'j'. If the same, call byeSpeaker's 'speak' method with the current name
 		// in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
 		// name in the loop.
-		if (firstletter == 'j') {
-			byeSpeaker.name;
+		if (firstletter === "j") {
+			byeSpeaker.speak;
 		  // byeSpeaker.xxxx
 		} else {
-			helloSpeaker.name;
+			helloSpeaker.speak;
 		  // helloSpeaker.xxxx
 		}
 	}
